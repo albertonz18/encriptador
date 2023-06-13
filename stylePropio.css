@@ -1,0 +1,197 @@
+body{
+    background-color: #2d3146;
+    background-image: linear-gradient(43deg, #2d3146 0%, #2d3990 46%, #69b5e6 100%);
+    background-image: url("imagenes/numeros.png");
+}
+
+.challenge-Titulo{
+    background: rgb(51, 51, 51);
+    font-size: 25px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.challenge-Titulo h2{
+    font-size: 18px;
+}
+
+nav{
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    text-decoration: none;
+}
+
+
+nav a{
+    color:#E5E5E5;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#5f71db;
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    width: 330px;
+    height: 300px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    opacity: 80%;
+    font-size: 20px;
+    
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    opacity: 80%;
+    height: 320px;
+    width: 300px;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    color: #0A3871;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+  
+
+}
+
+.btn-desencriptar {
+    background-color: #05031f;
+    background-image: linear-gradient(0deg, #05031f 0%, #193a3b 24%, #1c494c 49%, #265863 75%, #124c61 100%);
+    border: 1px solid #E5E5E5;
+    font-size: 20px;
+    color: #E5E5E5;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 30px;
+    width: 250px;
+}
+
+.btn-desencriptar:hover {
+    transform: scale(1.1);
+    color:#E5E5E5;
+    font-weight: bold;
+    background-color: #3e0505;
+    background-image: linear-gradient(43deg, #3e0505 0%, #981715 46%, #f70d00 100%);
+    border-color: #3e0505;
+
+}
+
+.btn-encriptar {
+    background-color: #05031f;
+    background-image: linear-gradient(0deg, #05031f 0%, #193a3b 24%, #1c494c 49%, #265863 75%, #124c61 100%);
+    border: 1px solid #E5E5E5;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+}
+
+.btn-encriptar:hover{
+    transform: scale(1.1);
+    color:#E5E5E5;
+    font-weight: bold;
+    background-color: #3e0505;
+    background-image: linear-gradient(43deg, #3e0505 0%, #981715 46%, #f70d00 100%);
+    border-color: #3e0505;
+}
+
+.copiar {
+    background-color: #05031f;
+    background-image: linear-gradient(0deg, #05031f 0%, #193a3b 24%, #1c494c 49%, #265863 75%, #124c61 100%);
+    border: 1px solid #E5E5E5;
+    font-size: 20px;
+    color: #E5E5E5;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 160px;
+    margin-top: 10px;
+    position: absolute;
+    width: 250px;
+}
+.copiar:hover{
+    transform: scale(1.1);
+    color:#E5E5E5;
+    font-weight: bold;
+    background-color: #3e0505;
+    background-image: linear-gradient(43deg, #3e0505 0%, #981715 46%, #f70d00 100%);
+    border-color: #3e0505;
+}
+
+footer{
+    background: rgb(51, 51, 51);
+    font-size: 25px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    align-content: center;
+    
+    font-size: 18px;
+}
+
+.redes a{
+    text-decoration: none;
+    font-size: 25px;
+    background:#E5E5E5 ;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    color:rgb(51, 51, 51) ;
+    transition: all .4s ease-in-out;
+}
+
+#linkedin:hover{
+    transform: scale(1.1);
+    background-color: #0e76a8;
+    color: #E5E5E5 ;
+}
+#github:hover{
+    transform: scale(1.1);
+    background-color:#080707 ;
+    color: #E5E5E5 ;
+}
